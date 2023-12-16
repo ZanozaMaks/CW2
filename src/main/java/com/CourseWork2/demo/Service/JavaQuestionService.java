@@ -1,0 +1,34 @@
+package com.CourseWork2.demo.Service;
+
+import com.CourseWork2.demo.Entity.Question;
+
+import java.util.Collection;
+
+public class JavaQuestionService implements QuestionService {
+
+    
+    @Override
+    public Question add(String question, String answer) {
+        return null;
+    }
+
+    @Override
+    public Question add(Question question) {
+        return null;
+    }
+
+    @Override
+    public Question remove(Question question) {
+        return null;
+    }
+
+    @Override
+    public Collection<Question> getAll() {
+        return null;
+    }
+
+    @Override
+    public Question getRandomQuestion() {
+        return null;
+    }
+}
